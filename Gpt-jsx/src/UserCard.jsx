@@ -12,11 +12,12 @@ const UserCard = ({name, job}) => {
 
   return (
     <div style={{
-      border: '1px solid #ccc',
+      border: '1px solid #4caf50',
       borderRadius: 10,
-      padding: 2,
+      padding: 20,
       margin: 10,
       maxWidth: 300,
+      backgroundColor: '#e8f5e9'
     }}>
       
       <h2>{name}</h2>
